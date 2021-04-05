@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, intial-scale=1">
+  <title>Cuppa Coffee</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet"> 
+ </head>
+ <body>
+
+<header>
+   <nav id="header-nav" class=" navbar navbar-expand-lg ">
+      <div class="container">
+        <div class="navbar-brand flex-column flex-sm-row">
+           <a href="index.html" class="pull-left flex-column flex-sm-row">
+              <img src="websitelogo.png" alt="logo image" width="300px" height="80px">
+           </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsible-nav" 
+        aria-controls="collapsible-nav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon fas fa-bars" style=" margin-top:50px; color: rgb(51, 32, 9);"></span>
+       </button>
+      </div>
+      <div id="collapsible-nav" class="collapse navbar-collapse">
+         <ul id="nav-list" class="navbar-nav me-auto mb-2 mb-lg-0 " >
+            <li class="nav-item ">
+               <a class= "nav-link" href="menu-categories.html">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cup-fill" viewBox="0 0 16 16">
+                     <path d="M1 2a1 1 0 0 1 1-1h11a1 1 0 0 1 1 1v1h.5A1.5 1.5 0 0 1 16 4.5v7a1.5 1.5 0 0 1-1.5 1.5h-.55a2.5 2.5 0 0 1-2.45 2h-8A2.5 2.5 0 0 1 1 12.5V2zm13 10h.5a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.5-.5H14v8z"/>
+                   </svg><br >Menu
+               </a>
+            </li>
+            <li class="nav-item ">
+               <a class="nav-link" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart-fill" viewBox="0 0 16 16">
+                     <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"/>
+                   </svg><br >About
+               </a>
+            </li>
+            <li class="nav-item ">
+               <a class="nav-link" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16">
+                     <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+                     <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                   </svg><br >Awards
+               </a>
+            </li>
+            <li id="phone" class="nav-link hidden-sm-down">
+               <a class="btn-group-lg" href="tel:410-602-5008"><div >410-602-5008</div> </a><div>Order Online!</div>
+            </li>
+         </ul>
+
+      </div>
+   </nav>
+</header>
+
+<div id="main-content" class="container">
+    <h1 id="menu-categories-title" class="text-center">Menu Categories</h1>
+
+    <section class="row">
+     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+         <a href="#">
+             <div class="category-tile">
+                 <img width="200" height="200" src="Webp.net-resizeimage(3).jpg" alt="Cappuccino">
+                 <span>Cupp'a Cappuccino</span>
+             </div>
+         </a>
+     </div>
+     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+        <a href="#">
+            <div class="category-tile">
+                <img width="200" height="200" src="menu-tile1.jpg" alt="Latte">
+                <span>Cupp'a Latte</span>
+            </div>
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+        <a href="#">
+            <div class="category-tile">
+                <img width="200" height="200" src="Webp.net-resizeimage(5).jpg" alt="Cupp'a Cortado">
+                <span>Cupp'a Cortado</span>
+            </div>
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+        <a href="#">
+            <div class="category-tile">
+                <img width="200" height="200" src="Webp.net-resizeimage(6).jpg" alt="Mocha">
+                <span>Cupp'a Mocha</span>
+            </div>
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+        <a href="#">
+            <div class="category-tile">
+                <img width="200" height="200" src="Webp.net-resizeimage(10).jpg" alt="Smoothies">
+                <span>Cupp'a Smoothie</span>
+            </div>
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+        <a href="#">
+            <div class="category-tile">
+                <img width="200" height="200" src="Webp.net-resizeimage(7).jpg" alt="Frappe">
+                <span>Cupp'a Frappe</span>
+            </div>
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+        <a href="#">
+            <div class="category-tile">
+                <img width="200" height="200" src="Webp.net-resizeimage(4).jpg" alt="Americano">
+                <span>Cupp'a Americano</span>
+            </div>
+        </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+        <a href="#">
+            <div class="category-tile">
+                <img width="200" height="200" src="Webp.net-resizeimage(2).jpg" alt="Espresso">
+                <span>Cupp'a Espresso</span>
+            </div>
+        </a>
+    </div>
+    </section>
+</div>
+   
+<footer class="panel-footer">
+   <div class="container">
+      <div class="row">
+         <section id="hours" class="col-sm-4">
+            <span>Hours:</span><br>
+            Sun-Fri: 9:00 AM -10:00 PM<br>
+            Saturday Closed
+            <hr class="visible-xs">
+         </section>
+         <section id="address" class="col-sm-4">
+            <span>Address:</span><br>
+            Delhi-Jaipur Highway<br>
+            Ambience Mall<br>
+            Gurgaon
+            <p>*Delivery area within 3-4 miles, with minimum order of 500 
+               Rupees with delivery charge for all deliveries.</p>
+               <hr class="visible-xs">
+         </section>
+         <section id="testimonials" class="col-sm-4">
+            <p>"One of the best Cafe's I have been to! And that's saying a lot, since I've been to many" </p>
+            <p>"Great Menu, Amazing service! Couldn't ask for more, will be back again and again!</p>
+         </section>
+      </div>
+      <div class="text-center">&copy; Copyright Cuppa Coffee 2021</div>
+   </div>
+</footer>
+    <script src= "js/jQuery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/cript.js"></script>
+ </body>
+</html>
