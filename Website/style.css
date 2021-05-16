@@ -11,6 +11,9 @@ body{
     border: 0;
    margin-bottom: 5px;
 }
+#navbarToggle:active{
+   border:#fff;
+}
 img{
     
     object-fit: contain;
@@ -41,10 +44,10 @@ img{
     padding-left: 15px;
     
 }
-#phone a{
+#phone a>div{
     text-align: right;
     padding-bottom: 0;
-    
+    border-bottom: none;
 }
 #phone div{
     text-align: right;
